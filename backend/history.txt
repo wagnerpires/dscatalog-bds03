@@ -1,0 +1,478 @@
+    1  git status
+    2  clear
+    3  mvn
+    4  ./mvnw -v
+    5  mvn
+    6  mvn
+    7  mvn
+    8  git status
+    9  git remote add origin https://github.com/wagnerpires/projeto-sds3.git
+   10  git init
+   11  git remote add origin https://github.com/wagnerpires/projeto-sds3.git
+   12  git status
+   13  git commit -m "Up"
+   14  git status
+   15  git add .
+   16  git commit -m "Up"
+   17  git status
+   18  git push
+   19  git push --set-upstream origin master
+   20  git push --set-upstream origin master
+   21  git push --set-upstream origin master
+   22  git init
+   23  git remote add origin ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILdKiv555J7cLjtjGbIsDx60qPQWfo27zm26QZ/lhzuS wagnerpires@hotmail.com
+   24  git remote add origin git@github.com:wagnerpires/projeto-sds3.git
+   25  git push
+   26  git push --set-upstream origin master
+   27  ls
+   28  git status
+   29  git remote add origin git@github.com:wagnerpires/projeto-sds3.git
+   30  git remote -v
+   31  git push orign main
+   32  git push 
+   33  git push --set-upstream origin master
+   34  ls
+   35  clear
+   36  cd ..
+   37  ls
+   38  cd projeto-sds3/
+   39  ls
+   40  git reset .
+   41  git status
+   42  clear
+   43  ls
+   44  ls
+   45  clear
+   46  git status
+   47  cd ..
+   48  ls
+   49  git clone spring.jpa.show-sql=true
+   50  git clone 
+   51  wagne@DESKTOP-Q3ADTOB MINGW64 /e/Windows/Downloads/workspaces/ws-devsuperior/projeto-sds3
+   52  $ spring.jpa.properties.hibernate.format_sql=true
+   53  git clone https://github.com/wagnerpires/projeto-sds3.git
+   54  ls
+   55  cd ..
+   56  rm -rf projeto-sds3
+   57  git clone https://github.com/wagnerpires/projeto-sds3.git
+   58  git clone
+   59  git status
+   60  git status
+   61  git add .
+   62  git commit -m "Ajuste"
+   63  git push
+   64  git push
+   65  git config --global user.email "wagnerpires@hotmail.com"
+   66  git config --global user.name "wagnerpires"
+   67  git push
+   68  git push origin master
+   69  git push
+   70  git init
+   71  git push
+   72  git add .
+   73  git push
+   74  git status
+   75  git reset .
+   76  git status
+   77  git init -b main
+   78  git add .
+   79  git commit -m "Alter"
+   80  git push
+   81  cd ..
+   82  rm -rf projeto-sds3
+   83  exit
+   84  git status
+   85  git clone git@github.com:wagnerpires/projeto-sds3.git
+   86  clear
+   87  ls
+   88  git status
+   89  git status
+   90  git remote
+   91  git remote -v
+   92  exit
+   93  git init
+   94  rm -rf .git
+   95  git init
+   96  git remote add origin git@github.com:wagnerpires/projeto-sds3-wr.git
+   97  git add .
+   98  git status
+   99  git add .git add .
+  100  git commit -m "Clone do projeto original projeto-sds3"
+  101  git push --set-upstream origin master
+  102  ls
+  103  clear
+  104  ls
+  105  heroku
+  106  heroku -v
+  107  heroku login
+  108  heroku login
+  109  heroku git:remote -a aula-implantacaoz
+  110  git remote -v
+  111  git subtree push --prefix backend heroku main
+  112  git subtree push --prefix backend heroku main
+  113  ls
+  114  git subtree push --prefix backend heroku main
+  115  git core\subtree push --prefix backend heroku main
+  116  git core\git-subtree push --prefix backend heroku main
+  117  git subtree push --prefix backend heroku main
+  118  git subtree push --prefix backend heroku main
+  119  exit
+  120  git subtree push --prefix backend heroku main
+  121  git --exec-path
+  122  git core-core\git-subtree push --prefix backend heroku main
+  123  git core\git-subtree push --prefix backend heroku main
+  124  git heroku login
+  125  git remote -v
+  126  git subtree push --prefix backend heroku main
+  127  git core\git-subtree push --prefix backend heroku main
+  128  git git-subtree push --prefix backend heroku main
+  129  git --exec-path
+  130  git push aula-implantacaoz distbranch:master
+  131  git subtree push --prefix backend heroku main
+  132  git --exec-path
+  133  git remote -v
+  134  heroku login
+  135  git remote -v
+  136  git subtree push --prefix backend heroku main
+  137  test "${PATH#"${GIT_EXEC_PATH}:"}" = "$PATH"
+  138  git subtree push --prefix backend heroku main
+  139  clear
+  140  git subtree push --prefix backend heroku main
+  141  git --exec-path
+  142  git subtree push --prefix backend heroku main
+  143  git subtree push --prefix backend heroku main
+  144  heroku login
+  145  heroku login
+  146  git remote -v
+  147  git subtree push --prefix backend heroku main
+  148  git subtree push --prefix backend heroku main
+  149  git --exec-path
+  150  git core\git-subtree push --prefix backend heroku main
+  151  git core subtree push --prefix backend heroku main
+  152  git-subtree push --prefix backend heroku main
+  153  git -subtree push --prefix backend heroku main
+  154  git subtree push --prefix backend heroku main
+  155  git subtree
+  156  git core\git-subtree
+  157  git git-subtree
+  158  git subtree
+  159  git  git-subtree
+  160  git-subtree
+  161  git  `git-subtree`
+  162  git push --prefix backend heroku main
+  163  git push backend heroku main
+  164  git push --prefix backend heroku masom
+  165  git subtree
+  166  exit
+  167  git init
+  168  git remote add origin git@github.com:wagnerpires/dscatalog-bds3.git
+  169  git status
+  170  git add .
+  171  git commit -m "Initial commit - Bootcamp DevSuperior 3.0"
+  172  git push --set-upstream origin master
+  173  git status
+  174  git push
+  175  git remote -v
+  176  git add .
+  177  git commit -m "Testes"
+  178  git push
+  179  git status
+  180  git subtree
+  181  git subtree
+  182  git init
+  183  git remote add origin git@github.com:wagnerpires/aula-deploy-heroku-2.git
+  184  git init
+  185  git remote add origin git@github.com:wagnerpires/aula-deploy-heroku-2.git
+  186  git status
+  187  git add .
+  188  git commit -m "First commit"
+  189  git push -u origin main
+  190  git push -u origin main
+  191  heroku -v
+  192  heroku login
+  193  heroku git:remote -a aula-deploy-heroku-2
+  194  git remote -v
+  195  git subtree push --prefix backend heroku main
+  196  git status
+  197  git add .
+  198  git commit -m "system.properties"
+  199  git push
+  200  heroku git:remote -a aula-deploy-heroku-2
+  201  git remote -v
+  202  git status
+  203  git add .
+  204  git commit -m "Correção
+  205  git commit -m "Correção"
+  206  git push
+  207  git status
+  208  git add .
+  209  git commit -m "Correção2"
+  210  git push
+  211  npm -v
+  212  clear
+  213  npm -v
+  214  node -v
+  215  yarn -v
+  216  npm install --global yarn
+  217  yarn -v
+  218  npx create-react-app frontweb --template typescript
+  219  git status
+  220  git add .
+  221  git commit -m "Frontweb created"
+  222  git push
+  223  cd frontweb
+  224  code .
+  225  yarn start
+  226  git status
+  227  exit
+  228  code .
+  229  yarn start
+  230  s
+  231  clear
+  232  cd ..
+  233  ls
+  234  git status
+  235  git add .
+  236  git commit -m "Project clean"
+  237  git push
+  238  cd frontweb/
+  239  ls
+  240  clear
+  241  ls
+  242  yarn add bootstrap
+  243  yarn add bootstrap
+  244  yarn start
+  245  git add .
+  246  git commit -m "Bootstrap"
+  247  git push
+  248  yarn start
+  249  yarn start
+  250  yarn add node-sass@4.14.1
+  251  yarn start
+  252  clear
+  253  ls
+  254  yarn add node-sass@4.14.1
+  255  yarn start
+  256  ls
+  257  clear
+  258  exit
+  259  mvn -v
+  260  code .
+  261  yarn start
+  262  exit
+  263  code .
+  264  yarn start
+  265  yarn start
+  266  cd ..
+  267  ls
+  268  clear
+  269  ls
+  270  git status
+  271  git add .
+  272  git commit -m "Navbar styling"
+  273  git push
+  274  cd ..
+  275  ls
+  276  cd projeto-sds3/
+  277  ls
+  278  cd ..
+  279  code .
+  280  cd ..
+  281  ls
+  282  git status
+  283  cd frontweb/
+  284  yarn start
+  285  yarn start
+  286  yarn stop
+  287  yarn start
+  288  yarn stop
+  289  code .
+  290  yarn start
+  291  yarn start
+  292  ps -aux
+  293  code .
+  294  yarn start
+  295  yarn start
+  296  git status
+  297  clear
+  298  git status
+  299  git add .
+  300  git commit -m "Frontend complete"
+  301  git push
+  302  code .
+  303  yarn start
+  304  yarn start
+  305  ls
+  306  cd ..
+  307  ls
+  308  yarn add react-router-dom @types/react-router-dom
+  309  yarn start
+  310  code .
+  311  yarn start
+  312  yarn start
+  313  code .
+  314  yarn start
+  315  yarn add node-sass@4.14.1
+  316  yarn start
+  317  CD ..
+  318  cd ..
+  319  ls
+  320  clear
+  321  pwd
+  322  git status
+  323  git add .
+  324  git commit -m "Mudanças cosméticas"
+  325  git push
+  326  git status
+  327  git add .
+  328  git commit -m "Deploy de produção"
+  329  git push
+  330  code .
+  331  code .
+  332  yarn start
+  333  cd ..
+  334  ls
+  335  clear
+  336  ls
+  337  cd ..
+  338  ls
+  339  code .
+  340  yarn start
+  341  git status
+  342  git restore src/pages/Admin/index.tsx
+  343  git status
+  344  yarn start
+  345  git add .
+  346  git commit -m "Final do capítulo 7"
+  347  git push
+  348  code .
+  349  git status
+  350  git restore frontweb/src/Routes.tsx
+  351  git status
+  352  git status
+  353  git restore src/components/NavBar/index.tsx
+  354  git status
+  355  cd ..npx create-react-app frontweb --template typescript
+  356  npx create-react-app frontweb --template typescript
+  357  yarn add bootstrap
+  358  ls
+  359  rm -rf node_modules/
+  360  rm package.json 
+  361  rm yarn.lock 
+  362  ls
+  363  cd frontweb/
+  364  yarn add bootstrap
+  365  yarn add node-sass@4.14.1
+  366  cd ..
+  367  ls
+  368  git remote add origin https://github.com/wagnerpires/bds07.git
+  369  git init
+  370  git remote add origin https://github.com/wagnerpires/bds07.git
+  371  git status
+  372  git add .
+  373  git status
+  374  git branch -M main
+  375  git push -u origin main
+  376  git add .
+  377  git commit -m "First commit"
+  378  git push
+  379  git push --set-upstream origin main
+  380  git status
+  381  ls
+  382  cd frontweb/
+  383  ls
+  384  cd src
+  385  ls
+  386  cd ..
+  387  ls
+  388  code .
+  389  cd ..
+  390  ls
+  391  git status
+  392  git add .
+  393  ls
+  394  git
+  395  ls
+  396  clear
+  397  git status
+  398  yarn add react-router-dom @types/react-router-dom
+  399  cd frontweb/
+  400  yarn add react-router-dom @types/react-router-dom
+  401  yarn start
+  402  yarn start
+  403  yarn start
+  404  yarn start
+  405  yarn start
+  406  git status
+  407  git add .
+  408  git commit -m "TDD final do capítulo 7"
+  409  git remote add origin https://github.com/wagnerpires/bds07.git
+  410  git init
+  411  git remote add https://github.com/wagnerpires/bds07.git
+  412  git remote add origin https://github.com/wagnerpires/bds07.git
+  413  git status
+  414  git add .
+  415  git status
+  416  git commit -m "TDD do final do capítulo 7" 
+  417  git push --set-upstream origin master
+  418  git push
+  419  git push --set-upstream origin main
+  420  code .
+  421  yarn start
+  422  git status
+  423  code .
+  424  yarn start
+  425  code .
+  426  yarn start
+  427  java -jar dscatalog-0.0.1-SNAPSHOT.jar
+  428  mvn clean package
+  429  mvn clean package
+  430  mvn clean package
+  431  mvn clean package
+  432  mvn clean package
+  433  mvn clean package
+  434  docker -v
+  435  docker build -t dscatalog-wrtecnologia:v1 .
+  436  mvn clean package
+  437  ls
+  438  ls
+  439* 
+  440  ls
+  441  docker build -t dscatalog-wrtecnologia:v1 .
+  442  ls
+  443  cd backend/
+  444  ls
+  445  docker build -t dscatalog-wrtecnologia:v1 .
+  446  ls
+  447  cd src
+  448  ls
+  449  cd main
+  450  ls
+  451  cd java
+  452  ls
+  453  cd ..
+  454  exit
+  455  mvn clean package
+  456  docker build -t dscatalog-wrtecnologia:v1 .
+  457  docker build -t dscatalog-wrtecnologia:v1 .
+  458  docker images
+  459  docker ps -a
+  460  docker push wagnerpires/dscatalog-wrtecnologia:v1
+  461  docker images
+  462  docker rmi 445
+  463  docker images
+  464  docker build -t dscatalog-wrtecnologia:v1 .
+  465  docker images
+  466  history | grep tag
+  467  docker tag dscatalog-wrtecnologia wagnerpires/dscatalog-wrtecnologia 
+  468  docker tag dscatalog-wrtecnologia wagnerpires/dscatalog-wrtecnologia:v1
+  469  docker images
+  470  docker tag dscatalog-wrtecnologia:v1 wagnerpires/dscatalog-wrtecnologia:v1
+  471  docker images
+  472  docker push wagnerpires/dscatalog-wrtecnologia:v1
+  473  docker login docker.io
+  474  docker push wagnerpires/dscatalog-wrtecnologia:v1
+  475  docker images
+  476  docker images
+  477  history
+  478  history > history.txt
