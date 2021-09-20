@@ -38,7 +38,7 @@ const Navbar = () => {
         {' '}
         {/* previne quebra de linha entre logo e itens */}
         <Link to="/" className="nav-logo-text">
-          <h4>Catálogo de Produtos</h4>
+          <h4>Rede de Lojas do Wagner</h4>
         </Link>
         <button
           className="navbar-toggler"
