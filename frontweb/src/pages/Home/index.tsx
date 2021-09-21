@@ -12,12 +12,15 @@ const Home = () => {
           <div>
             <h1>Conheça o melhor catálogo de produtos</h1>
             <p>
-              Ajudaremos você a encontrar os melhores produtos disponíveis no mercado.
+              Ajudaremos você a encontrar os melhores produtos disponíveis no
+              mercado.
             </p>
           </div>
-          <Link to="/products" className="home-button">
-            <ButtonIcon text = "Inicie agora a sua busca" />
-          </Link>
+          <div>
+            <Link to="/products">
+              <ButtonIcon text="Inicie agora a sua busca" />
+            </Link>
+          </div>
         </div>
         <div className="home-image-container">
           <MainImage />

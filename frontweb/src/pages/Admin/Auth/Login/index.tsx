@@ -1,16 +1,15 @@
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import ButtonIcon from 'components/ButtonIcon';
 import { useForm } from 'react-hook-form';
-import { requestBackendLogin} from 'util/requests';
+import { requestBackendLogin } from 'util/requests';
 import { useContext, useState } from 'react';
-
 import { AuthContext } from 'AuthContext';
 import { saveAuthData } from 'util/storage';
 import { getTokenData } from 'util/auth';
 
 import './styles.css';
 
-type FormData = {
+type CredentialsDTO = {
   username: string;
   password: string;
 };
@@ -23,17 +22,17 @@ const Login = () => {
 
   const location = useLocation<LocationState>();
 
-  const { from } = location.state || { from: { pathname: '/admin' }};
+  const { from } = location.state || { from: { pathname: '/admin' } };
 
-  const { setAuthContextData } = useContext(AuthContext)
+  const { setAuthContextData } = useContext(AuthContext);
 
   const [hasError, setHasError] = useState(false);
 
-  const { register, handleSubmit, formState: {errors} } = useForm<FormData>();
+  const { register, handleSubmit, formState: {errors} } = useForm<CredentialsDTO>();
 
   const history = useHistory();
 
-  const onSubmit = (formData: FormData) => {
+  const onSubmit = (formData: CredentialsDTO) => {
     requestBackendLogin(formData)
       .then((response) => {
         saveAuthData(response.data);
@@ -54,9 +53,7 @@ const Login = () => {
     <div className="base-card login-card">
       <h1>LOGIN</h1>
       {hasError && (
-        <div className="alert alert-danger">
-          Ocorreu ao tentar efetuar login.
-        </div>
+        <div className="alert alert-danger">Erro ao tentar efetuar o login</div>
       )}
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mb-4">

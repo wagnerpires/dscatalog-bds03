@@ -1,6 +1,5 @@
 .btn-container {
     display: flex;
-    justify-content: center;
 }
 
 .btn-container button {
@@ -8,41 +7,34 @@
     border-radius: 10px 0 0 10px;
 }
 
-.btn-content {
+.btn h6 {
+    color: #fff;
+    font-size: 12px;
     text-transform: uppercase;
 }
 
-.btn-content h6 {
-    color: #fff;
-    font-size: 0.8em;
-}
-
-.btn-icon {
+.btn-icon-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-    border-radius: 0px 10px 10px 0px;
+    align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #33569b;
-    color: #FFF;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #33569B;
+    color: #fff;
 }
 
 @media (min-width: 576px) {
-    .btn-container button {
-        width: calc(100% - 50px);
-    }
-    .btn-icon {
+    .btn-icon-container {
         width: 70px;
         height: 70px;
     }
-    .btn-content h6 {
-        font-size: 1.2em;
-    }
-}
 
-@media (min-width: 1200px) {
-    .btn-container {
-        justify-content: flex-start;
+    .btn-container button {
+        width: calc(100% - 70px);
+    }
+
+    .btn h6 {
+        font-size: 18px;
     }
 }

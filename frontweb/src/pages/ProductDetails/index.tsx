@@ -1,22 +1,21 @@
 import { ReactComponent as ArrowIcon } from 'assets/images/arrow.svg';
-import ProductPrice from 'components/ProductPrice';
-import { Link, useParams } from 'react-router-dom';
-
-import './styles.css';
-import { Product } from 'types/product';
 import axios from 'axios';
-import { BASE_URL } from '../../util/requests';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import ProductPrice from 'components/ProductPrice';
+import { useState, useEffect } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { Product } from 'types/product';
+import { BASE_URL } from 'util/requests';
 import ProductInfoLoader from './ProductInfoLoader';
 import ProductDetailsLoader from './ProductDetailsLoader';
 
-type urlParams = {
+import './styles.css';
+
+type UrlParams = {
   productId: string;
 };
 
 const ProductDetails = () => {
-  const { productId } = useParams<urlParams>();
+  const { productId } = useParams<UrlParams>();
 
   const [isLoading, setIsLoading] = useState(false);
   const [product, setProduct] = useState<Product>();

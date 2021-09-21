@@ -1,13 +1,16 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
-import { useContext, useEffect } from 'react';
-import history from 'util/history';
+
 import { Link, NavLink } from 'react-router-dom';
+import { useEffect } from 'react';
+import history from 'util/history';
+import { useContext } from 'react';
 import { AuthContext } from 'AuthContext';
 import { getTokenData, isAuthenticated } from 'util/auth';
 import { removeAuthData } from 'util/storage';
 
 const Navbar = () => {
+
   const { authContextData, setAuthContextData } = useContext(AuthContext);
 
   useEffect(() => {
@@ -35,10 +38,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid">
-        {' '}
-        {/* previne quebra de linha entre logo e itens */}
         <Link to="/" className="nav-logo-text">
-          <h4>Rede de Lojas do Wagner</h4>
+          <h4>Catálogo de Produtos</h4>
         </Link>
         <button
           className="navbar-toggler"
@@ -55,7 +56,7 @@ const Navbar = () => {
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
               <NavLink to="/" activeClassName="active" exact>
-                PRINCIPAL
+                HOME
               </NavLink>
             </li>
             <li>
@@ -65,18 +66,16 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink to="/admin" activeClassName="active">
-                ADMINISTRAÇÃO
+                ADMIN
               </NavLink>
             </li>
           </ul>
         </div>
+
         <div className="nav-login-logout">
           {authContextData.authenticated ? (
             <>
-              <span className="nav-username">
-                {authContextData.tokenData?.user_name}
-              </span>
-
+              <span className="nav-username">{authContextData.tokenData?.user_name}</span>
               <a href="#logout" onClick={handleLogoutClick}>
                 LOGOUT
               </a>
