@@ -3,8 +3,8 @@ import { formatPrice } from 'util/formatters';
 describe('formatPrice for positive numbers', () => {
 
   test('should format number pt-BR when given 10.1', () => {
-    const result = formatPrice(10.1);
-    expect(result).toEqual('10,10');
+    const result = formatPrice(10.20);
+    expect(result).toEqual('10,20');
   });
 
   test('should format number pt-BR when given 0.1', () => {

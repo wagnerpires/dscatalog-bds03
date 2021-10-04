@@ -2,6 +2,7 @@ import { hasAnyRoles } from '../auth';
 import * as TokenModule from '../token';
 
 describe('hasAnyRoles tests', () => {
+  
   test('should return true when empty list', () => {
     const result = hasAnyRoles([]);
     expect(result).toEqual(true);
